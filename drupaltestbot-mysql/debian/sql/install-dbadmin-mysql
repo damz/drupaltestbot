@@ -1,0 +1,3 @@
+
+-- Give the main drupaltestbot user the rights on the checkout database.
+GRANT ALL PRIVILEGES ON `drupaltestbotmysql`.* TO 'drupaltestbot'@'localhost';

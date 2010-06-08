@@ -1,5 +1,0 @@
--- Installation file for the admin part of the test bot
-
-DROP DATABASE IF EXISTS drupal_checkout;
-CREATE DATABASE drupal_checkout;
-GRANT ALL PRIVILEGES ON drupal_checkout TO drupal_checkout@localhost IDENTIFIED BY 'drupal_checkout';
