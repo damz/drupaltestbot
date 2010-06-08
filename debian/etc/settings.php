@@ -9,6 +9,13 @@ $db_url = "$dbtype://$dbuser:$dbpass@$dbserver/$dbname";
 $db_prefix = '';
 
 /**
+ * Testing settings.
+ */
+if (file_exists('/etc/drupaltestbot/config-checkout.php')) {
+  require_once('/etc/drupaltestbot/config-checkout.php');
+}
+
+/**
  * Base URL (optional).
  */
 # $base_url = 'http://www.example.com';  // NO trailing slash!
