@@ -42,6 +42,7 @@ install: build
 	cp -r $(CURDIR)/build/* $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot
 	cp -r $(CURDIR)/debian/etc/apache.conf $(CURDIR)/debian/drupaltestbot/etc/apache2/sites-available/drupaltestbot
 	cp -r $(CURDIR)/debian/etc/settings.php $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/sites/default
+	cp -r $(CURDIR)/debian/etc/cron.d $(CURDIR)/debian/drupaltestbot/etc/cron.d/drupaltestbot
 	mkdir $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/sites/default/files
 
 # Build architecture-independent files here.
