@@ -3,16 +3,20 @@
 /**
  * Database settings.
  */
-require_once('/etc/drupaltestbot/config-db.php');
-if (!isset($dbserver) || empty($dbserver)) $dbserver = 'localhost';
-$db_url = "$dbtype://$dbuser:$dbpass@$dbserver/$dbname";
+include('/etc/drupaltestbot/config-db.php');
+if (empty($dbserver)) $dbserver = 'localhost';
+if (!empty($basepath)) $dbname = $basepath . $dbname;
+$db_url['default'] = "$dbtype://$dbuser:$dbpass@$dbserver/$dbname";
 $db_prefix = '';
 
 /**
  * Testing settings.
  */
 if (file_exists('/etc/drupaltestbot/config-checkout.php')) {
-  require_once('/etc/drupaltestbot/config-checkout.php');
+  include('/etc/drupaltestbot/config-checkout.php');
+  if (empty($dbserver)) $dbserver = 'localhost';
+  if (!empty($basepath)) $dbname = $basepath . $dbname;
+  $db_url['pifr_checkout'] = "$dbtype://$dbuser:$dbpass@$dbserver/$dbname";
 }
 
 /**

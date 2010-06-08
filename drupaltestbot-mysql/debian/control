@@ -1,0 +1,12 @@
+Source: drupaltestbot-mysql
+Section: devel
+Priority: optional
+Maintainer: Damien Tournoud <damien@commerceguys.com>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://qa.drupal.org
+
+Package: drupaltestbot-mysql
+Architecture: all
+Depends: ${misc:Depends}, drupaltestbot, mysql-server | virtual-mysql-server
+Description: MySQL test environment for the Drupal test bot.

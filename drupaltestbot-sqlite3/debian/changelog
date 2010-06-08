@@ -1,0 +1,5 @@
+drupaltestbot-sqlite3 (0.0.1) unstable; urgency=low
+
+  * Initial release of the MySQL Driver.
+
+ -- Damien Tournoud <damien@commerceguys.com>  Tue, 08 Jun 2010 15:14:43 +0200
