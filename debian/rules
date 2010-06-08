@@ -43,6 +43,7 @@ install: build
 	cp -r $(CURDIR)/debian/etc/apache.conf $(CURDIR)/debian/drupaltestbot/etc/apache2/sites-available/drupaltestbot
 	cp -r $(CURDIR)/debian/etc/settings.php $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/sites/default
 	cp -r $(CURDIR)/debian/etc/cron.d $(CURDIR)/debian/drupaltestbot/etc/cron.d/drupaltestbot
+	cp -r $(CURDIR)/debian/sql/install-dbadmin-mysql $(CURDIR)/debian/drupaltestbot/usr/share/dbconfig-common/data/drupaltestbot/install-dbadmin/mysql
 	mkdir $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/sites/default/files
 
 # Build architecture-independent files here.

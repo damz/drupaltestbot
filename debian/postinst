@@ -2,7 +2,7 @@
 set -e
 
 apache_install() {
-	rm /etc/apache2/sites-enabled/*
+	rm /etc/apache2/sites-enabled/* || true
 	ln -s /etc/apache2/sites-available/drupaltestbot /etc/apache2/sites-enabled/drupaltestbot
 	reload_apache
 }
