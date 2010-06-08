@@ -1,0 +1,12 @@
+Source: drupaltestbot
+Section: devel
+Priority: optional
+Maintainer: Damien Tournoud <damien@commerceguys.com>
+Build-Depends: debhelper (>= 7), drush
+Standards-Version: 3.7.3
+Homepage: http://qa.drupal.org
+
+Package: drupaltestbot
+Architecture: all
+Depends: ${misc:Depends}, apache2, php5, php5-mysql, php5-gd, php5-curl, wwwconfig-common (>= 0.0.37), mysql-client | virtual-mysql-client, dbconfig-common, curl
+Description: An installation package for the Drupal Test Bot.

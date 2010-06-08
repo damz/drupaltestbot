@@ -1,0 +1,4 @@
+var/lib/drupaltestbot
+etc/drupaltestbot
+etc/apache2/sites-available
+
