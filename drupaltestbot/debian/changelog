@@ -1,3 +1,9 @@
+drupaltestbot (0.0.2) unstable; urgency=low
+
+  * Fix an issue with cron hostnames.
+
+ -- Damien Tournoud <damien@commerceguys.com>  Thu, 10 Jun 2010 02:13:00 +0200
+
 drupaltestbot (0.0.1) unstable; urgency=low
 
   * Initial release.
