@@ -1,0 +1,5 @@
+drupaltestbot-pgsql (0.0.1) unstable; urgency=low
+
+  * Initial release of the PostgreSQL Driver.
+
+ -- Neil Bertram <neil@catalyst.net.nz>  Sat, 19 Jun 2010 17:03:14 +1200

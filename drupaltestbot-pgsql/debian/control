@@ -1,0 +1,13 @@
+Source: drupaltestbot-pgsql
+Section: devel
+Priority: optional
+Maintainer: Neil Bertram <neil@catalyst.net.nz>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.7.3
+Homepage: http://qa.drupal.org
+
+Package: drupaltestbot-pgsql
+Architecture: all
+Depends: ${misc:Depends}, drupaltestbot, postgresql
+Conflicts: drupaltestbot-sqlite3, drupaltestbot-mysql
+Description: PostgreSQL test environment for the Drupal test bot.
