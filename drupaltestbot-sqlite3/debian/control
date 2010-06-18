@@ -9,4 +9,5 @@ Homepage: http://qa.drupal.org
 Package: drupaltestbot-sqlite3
 Architecture: all
 Depends: ${misc:Depends}, drupaltestbot, sqlite3
+Conflicts: drupaltestbot-pgsql, drupaltestbot-mysql
 Description: sqlite3 test environment for the Drupal test bot.

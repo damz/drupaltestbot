@@ -9,4 +9,5 @@ Homepage: http://qa.drupal.org
 Package: drupaltestbot-mysql
 Architecture: all
 Depends: ${misc:Depends}, drupaltestbot, mysql-server | virtual-mysql-server
+Conflicts: drupaltestbot-pgsql, drupaltestbot-sqlite3
 Description: MySQL test environment for the Drupal test bot.
