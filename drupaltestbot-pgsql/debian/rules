@@ -26,6 +26,8 @@ install: build
 	dh_clean -k 
 	dh_installdirs
 
+	cp -r $(CURDIR)/debian/sql/install-dbadmin-pgsql $(CURDIR)/debian/drupaltestbot-pgsql/usr/share/dbconfig-common/data/drupaltestbot-pgsql/install-dbadmin/pgsql
+
 # Build architecture-independent files here.
 binary-indep: build install
 # We have nothing to do by default.

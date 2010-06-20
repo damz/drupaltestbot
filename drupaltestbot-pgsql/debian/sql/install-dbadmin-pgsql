@@ -1,0 +1,5 @@
+
+-- Give the main drupaltestbot user the rights on the checkout database.
+ALTER USER drupaltestbotpgsql WITH CREATEDB;
+ALTER DATABASE drupaltestbotpgsql OWNER TO drupaltestbotpgsql;
+
