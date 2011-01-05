@@ -1,3 +1,15 @@
+drupaltestbot (0.0.4) unstable; urgency=low
+
+  * Applying new patch for http://drupal.org/node/972956.
+
+ -- Damien Tournoud <damien@commerceguys.com>  Sun, 21 Nov 2010 16:30:47 +0000
+
+drupaltestbot (0.0.3) unstable; urgency=low
+
+  * Apply patch for http://drupal.org/node/972956.
+
+ -- Damien Tournoud <damien@commerceguys.com>  Sun, 21 Nov 2010 10:57:13 +0000
+
 drupaltestbot (0.0.2) unstable; urgency=low
 
   * Fix an issue with cron hostnames.
