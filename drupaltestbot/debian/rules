@@ -19,7 +19,7 @@ build-stamp: configure-stamp
 	drush make drupaltestbot.make build
 
   # (temporary) Apply Postgres patch to PIFR
-  patch -t -i ../drupaltestbot-pgsql/pifr_2.2_pgsupport.patch -d sites/all/modules/project_issue_file_review -p0
+  patch -t -i ../drupaltestbot-pgsql/pifr_2.2_pgsupport.patch -d build/sites/all/modules/project_issue_file_review -p0
 
 	touch $@
 
