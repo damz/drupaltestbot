@@ -39,6 +39,8 @@ install: build
 
   # Installing package in debian/drupaltestbot
 	cp -r $(CURDIR)/build/.htaccess $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot
+	mkdir -p $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/profiles/drupaltestbot
+	cp drupaltestbot.profile $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/profiles/drupaltestbot/
 	cp -r $(CURDIR)/build/* $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot
 	cp -r $(CURDIR)/debian/etc/apache.conf $(CURDIR)/debian/drupaltestbot/etc/apache2/sites-available/drupaltestbot
 	cp -r $(CURDIR)/debian/etc/settings.php $(CURDIR)/debian/drupaltestbot/var/lib/drupaltestbot/sites/default
