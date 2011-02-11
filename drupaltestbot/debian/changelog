@@ -1,3 +1,9 @@
+drupaltestbot (0.0.6) unstable; urgency=low
+
+  * Changes to switch to Git SCM (using 6.x-3.x of project_issue_file_review)
+  
+ -- Damien Tournoud <damien@commerceguys.com>  Fri, 11 Feb 2011 10:18:25 -0700
+
 drupaltestbot (0.0.5) unstable; urgency=low
 
   * Apply patch for PostgreSQL support
