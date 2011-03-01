@@ -1,3 +1,9 @@
+drupaltestbot (0.0.7) unstable; urgency=low
+
+  * Update to current version (Git migration deployed) of project_issue_file_review.
+
+ -- Randy Fay <randy.fay@commerceguys.com>  Fri, 25 Feb 2011 15:18:25 -0700
+
 drupaltestbot (0.0.6) unstable; urgency=low
 
   * Changes to switch to Git SCM (using 6.x-3.x of project_issue_file_review)
