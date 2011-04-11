@@ -1,3 +1,9 @@
+drupaltestbot (0.0.8) unstable; urgency=low
+
+  * Update to current version (Git for applying patches) of project_issue_file_review.
+
+ -- Randy Fay <randy.fay@commerceguys.com>  Fri, 11 Apr 2011 07:18:25 -0700
+
 drupaltestbot (0.0.7) unstable; urgency=low
 
   * Update to current version (Git migration deployed) of project_issue_file_review.
